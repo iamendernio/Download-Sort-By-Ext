@@ -1,0 +1,17 @@
+{
+  "name": "Download Sorter By File Extensions",
+  "description": "Extensions that fetches file extension of downloading file and creates a folder for it, where other files with the same extension will be.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "permissions": [
+    "downloads",
+    "downloads.shelf"
+  ],
+  "background": {
+    "service_worker": "bg.js"
+  }
+}
